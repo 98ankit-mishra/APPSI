@@ -1,0 +1,181 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 40px;
+  }
+  
+  .login-title {
+    line-height: 1;
+    font-size:48px;
+    font-family: "Playfair",serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -6%;
+    margin-bottom: 5%;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 14px;
+    margin-bottom: 5%;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    right: 100px;
+  }
+  
+  .terms-link, .forgot-link, .login-link {
+    color:black;
+    font-weight: 50;
+    text-decoration: none;
+
+  }
+  .forgot-link:hover{
+    color: lightblue;
+  }
+  .terms-link:hover{
+    color: lightblue;
+
+  }
+  .login-link:hover{
+    color:blue;
+  }
+  
+  
+  .login-button {
+    width: 100%;
+    background:wheat;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  .login-button:hover{
+    background-color: aqua;
+  }
+  
+  .register-text {
+    text-align: center;
+    margin-top: 20px;
+
+  }
+  .social-text{
+    color:#666;
+  }
+  
+  .social-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 30px;
+  }
+  
+  
+  .google{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  
+  }
+  .facebook{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  
+  }
+  .google {
+    border-color: #d93025;
+  }
+  
+  .google:hover {
+    background: #d9302522;
+  }
+  
+  .facebook {
+    border-color: #1877f2;
+  }
+  
+  .facebook:hover {
+    background: #1877f222;
+  }
+  
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .login-image {
+    width: 50%;
+    background: url('appsi2.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 5% 0 0 5%;
+  }
+  
+  .studio-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+  .back{
+    background-color: white;
+    color:black;
+    border:none;
+    padding:10px 20px;
+    font-size: 14px;
+    cursor:pointer;
+    border-radius: 5px;
+    position: relative; 
+    top:-50px;
+    left:-340px;
+  }
+  

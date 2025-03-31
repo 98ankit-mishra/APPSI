@@ -1,0 +1,191 @@
+.login-container {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  text-align: center;
+}
+.welcome{
+  line-height: 1;
+  font-size:48px;
+  font-family: "Playfair",serif;
+  font-weight: bold;
+  text-align: center;
+
+}
+.welcome::first-letter{
+  color: aqua;
+}
+.mail{
+  line-height: 6;
+  font-size: small;
+  margin-top: -2%;
+  margin-bottom: 2%;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px;
+}
+.account{
+  line-height: 6;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input:hover{
+  background-color: azure;
+}
+
+button {
+  padding: 16px;
+  background-color:aqua;
+  color: black;
+  text-decoration:black;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+button:hover{
+  background-color:greenyellow;
+  color: aqua;
+}
+button:active{
+  background-color: hotpink;
+}
+
+.options {
+  display: flex;
+  /* display: grid; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  margin: 16px;
+}
+input[type="checkbox"]:checked + label{
+  color: aqua;
+}
+.email{
+  margin-left: -360px;
+  font-weight:bold;
+}
+.password{
+  margin-left: -330px;
+  font-weight: bold;
+}
+.eye-icon{
+  position: absolute;
+  right: px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.rem{
+  position: relative;
+  right:42%;
+  width: 100%;
+  top:40%;
+  margin-top: 7%;
+  
+}
+.box{
+  position: relative;
+  right: 20%;
+  height: 15px;
+  top:10%;
+  margin-top: 6%;
+  
+}
+.pass{
+  position: relative;
+  width: 65%;
+  font-size: 100;
+  text-decoration: none;
+  bottom:30%;
+  color:black;
+}
+.option-1{
+  display: flex;
+  justify-content: center;
+  width:50%;
+  top:10%;
+
+}
+.divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.divider-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 1%;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.social-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.google {
+  border-color: #d93025;
+}
+
+.google:hover {
+  background: #d9302522;
+}
+
+.facebook {
+  border-color: #1877f2;
+}
+
+.facebook:hover {
+  background: #1877f222;
+}
+
